@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-argocd-test
+  name: my-otel-demo
   annotations:
-    github.com/project-slug: mati007thm/backstage-argocd-test
+    github.com/project-slug: mati007thm/backstage-argocd-test/kubernetes
     argocd/app-name: my-otel-demo
 spec:
   type: other
